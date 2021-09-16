@@ -9,15 +9,18 @@ export default {
     file: 'dist/index.js',
     format: 'cjs'
   },
-  /*
   output: {
     file: 'dist/index.mjs',
     format: 'esm'
   },
-  */
   plugins: [
     resolve(),
     commonjs(),
     json(),
+/*
+without json:
+[!] Error: 'default' is not exported by node_modules/ci-info/vendors.json,
+imported by node_modules/ci-info/vendors.json?commonjs-proxy
+*/
   ]
 };

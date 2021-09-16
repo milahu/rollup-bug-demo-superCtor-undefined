@@ -8,6 +8,7 @@ async function main() {
     LockfileType.npm,
     true,
   );
+  console.log('pass')
 }
 
 main()
