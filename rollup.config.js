@@ -9,10 +9,12 @@ export default {
     file: 'dist/index.js',
     format: 'cjs'
   },
+/*
   output: {
     file: 'dist/index.mjs',
     format: 'esm'
   },
+*/
   plugins: [
     resolve(),
     commonjs(),
