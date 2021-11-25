@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup -c && bash fix-dist-index.sh",
+    "test": "node dist/index.js",
     "build-wp": "webpack --mode development"
   },
   "keywords": [
