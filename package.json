@@ -22,16 +22,16 @@
     "author": "Kat Marchán"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-node-resolve": "^13.0.6",
     "@yarnpkg/lockfile": "^1.1.0",
-    "rollup": "2.56",
-    "snyk-nodejs-lockfile-parser": "^1.37.0"
+    "rollup": "^2.60.1",
+    "snyk-nodejs-lockfile-parser": "github:milahu/nodejs-lockfile-parser#a1499406d72bfbaf8810e06db7e219c6a0385902"
   },
   "dependencies": {
     "json-loader": "^0.5.7",
-    "webpack": "^5.53.0",
-    "webpack-cli": "^4.8.0"
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
   }
 }
