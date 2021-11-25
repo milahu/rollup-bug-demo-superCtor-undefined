@@ -6,8 +6,15 @@ import json from '@rollup/plugin-json';
 export default {
   input: 'src/index.js',
   output: {
-    file: 'dist/index.js',
-    format: 'cjs'
+    dir: 'dist',
+    format: 'cjs',
+    sourcemap: true,
+
+    // remove hashes from filenames
+    entryFileNames: `[name].js`,
+    chunkFileNames: `assets/[name].js`,
+    assetFileNames: `assets/[name].[ext]`,
+
   },
 /*
   output: {
